@@ -1,4 +1,4 @@
-package com.lpereda.findingelements;
+package com.lpereda.complexscript;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,11 +16,16 @@ public class Application {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 
-		// Get element by className
 		WebElement searchField = driver.findElement(By.name("q"));
 		// driver.findElement(By.tagName("INPUT"));
-		// driver.findElement(By.className("gLFyf gsfi"));
 		searchField.sendKeys("pluralsight");
+
+		// Executes searchfield
+		searchField.submit();
+
+		// // Vavigating to Images tab
+		WebElement imagesLink = driver.findElements(By.linkText("Images")).get(0);
+		imagesLink.click();
 	}
 
 }
