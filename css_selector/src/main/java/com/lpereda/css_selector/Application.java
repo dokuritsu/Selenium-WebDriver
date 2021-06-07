@@ -23,6 +23,17 @@ public class Application {
 
 		WebElement imagesLink = driver.findElements(By.linkText("Images")).get(0);
 		imagesLink.click();
+
+		// 	Find 
+//		WebElement imageElement = driver.findElement(By.className("wXeWr islib nfEiy mM5pbd"));
+////		driver.findElements(By.cssSelector("a[class=wXeWr islib nfEiy mM5pbd]")).get(0);	//anchor
+//		WebElement divImgElement = imageElement.findElements(By.className("bRMDJf islir")).get(0);
+//		WebElement imageLink = divImgElement.findElements(By.tagName("img")).get(0);
+//		imageLink.click();
+
+		WebElement imageElement = driver.findElement(By.cssSelector(".isv-r:first-child"));
+		WebElement imageLink = imageElement.findElement(By.cssSelector(".rg_i"));
+		imageLink.click();
 	}
 
 }
