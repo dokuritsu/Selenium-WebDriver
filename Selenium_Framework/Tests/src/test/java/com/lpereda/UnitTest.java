@@ -1,6 +1,7 @@
 package com.lpereda;
 
 import org.junit.After;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,8 +12,15 @@ public class UnitTest {
         Assert.assertTrue(Pages.homePage().isAt());
     }
 
-    @After
-    public void cleanUp(){
+    @Test
+    public void canGoToJavaPathPage(){
+        Pages.pathPages().goTo();
+        Pages.pathPages().goToJSPath();
+        Assert.assertTrue(Pages.pathPages().isAt());
+    }
+
+    @AfterClass
+    public static void cleanUp(){
         Browser.close();
     }
 }
