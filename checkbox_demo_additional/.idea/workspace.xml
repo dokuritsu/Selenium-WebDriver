@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd0d421-fe2c-4728-9c02-b2a5c010b56a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lpereda/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckBoxTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/lpereda/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/PathPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_Framework/src/main/java/com/lpereda/PathPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple_form_demo_additional/src/main/java/com/lpereda/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_form_demo_additional/src/main/java/com/lpereda/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple_form_demo_additional/src/test/java/com/lpereda/SimpleFormDisplayMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_form_demo_additional/src/test/java/com/lpereda/SimpleFormDisplayMsg.java" afterDir="false" />
-    </list>
+    <list default="true" id="9bd0d421-fe2c-4728-9c02-b2a5c010b56a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
