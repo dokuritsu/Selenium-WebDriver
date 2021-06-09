@@ -21,7 +21,9 @@ public class Application {
         // Close pop-up
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         WebElement popUpElement = driver.findElement(By.id("at-cv-lightbox-close"));
-        popUpElement.click();
+        if(popUpElement != null) {
+            popUpElement.click();
+        }
     }
 
     public void clickStartPractice(){

@@ -2,10 +2,12 @@ package com.lpereda;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class Browser {
 
-    static WebDriver driver = new FirefoxDriver();
+    static WebDriver driver;
 
     public static void goTo(String url){
         driver.get(url);
@@ -17,5 +19,14 @@ public class Browser {
 
     public static void close() {
         driver.close();
+    }
+
+    public static void setProfile() {
+        FirefoxOptions options = new FirefoxOptions();
+        FirefoxProfile customProfile = new FirefoxProfile();
+        customProfile.setPreference("dom.disable_beforeunload", true);
+        options.setProfile(customProfile);
+        driver = new FirefoxDriver(options);
+
     }
 }
